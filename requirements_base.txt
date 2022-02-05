@@ -3,7 +3,7 @@
 # platform: win-64
 
 
-argcomplete=1.12.3
+
 async_generator=1.10
 backcall=0.2.0
 blas=1.0
