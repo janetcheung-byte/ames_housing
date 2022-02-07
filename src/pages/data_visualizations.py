@@ -1,6 +1,6 @@
 
 import streamlit as st
-st.set_page_config(layout="wide")  # this needs to be the first Streamlit command called
+ 
 import holoviews as hv
 import hvplot.pandas
 import pandas as pd
