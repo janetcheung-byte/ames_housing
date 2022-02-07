@@ -56,6 +56,6 @@ dashboard = pn.Tabs(
 
 def write():
 
-    st.write(hv.render(dashboard.show()))
-    #st.write(hv.render(dashboard.show()), backend='bokeh')
+    #st.write(hv.render(dashboard.show()))
+    st.write(hv.render(dashboard.show()), backend='bokeh')
     
