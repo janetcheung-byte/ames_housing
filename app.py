@@ -3,12 +3,13 @@ import streamlit as st
 import awesome_streamlit as ast
 import src.pages.eda
 
-import src.pages.home
+import src.pages.data_visualizations
 
 ast.core.services.other.set_logging_format()
 
 PAGES = {
-    "Exploratory Data Analysis": src.pages.eda
+    "Exploratory Data Analysis": src.pages.eda,
+    "Data Visualizations":src.pages.data_visualizations
 
 }
 
