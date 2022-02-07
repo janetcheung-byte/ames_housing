@@ -33,9 +33,9 @@ heatmap = df.corr().hvplot.heatmap(rot=90,  height=600, width=700)
 scatt_plot=df.hvplot.scatter(x='1stFlrSF',y='SalePrice', title='Home Size and Sales Price', xlabel='Sq Ft on First Floor', ylabel='Sales Price (USD)', yformatter='$%.0f')
 scatt_best_fit_line=scatt_plot.opts(size=10) * hv.Slope.from_scatter(scatt_plot ).opts(color='red')
 
-row1 = pn.Row(hist_plot), box_plot)
-row2= pn.Row( bar_count) , line_chart)
-row3 = pn.Row(  heatmap),  scatt_best_fit_line)
+row1 = pn.Row(hist_plot, box_plot)
+row2= pn.Row( bar_count , line_chart)
+row3 = pn.Row(  heatmap,  scatt_best_fit_line)
 
 # Create panels to structure the layout of the dashboard
 column1 = pn.Column(
