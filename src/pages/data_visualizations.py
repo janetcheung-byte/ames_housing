@@ -2,12 +2,17 @@
 import streamlit as st
  
 import holoviews as hv
-import hvplot.pandas
+import hvplot
 import pandas as pd
 import panel as pn
 from panel.interact import interact
 import plotly.express as px
+
+pn.config.sizing_mode = "stretch_width"
+pn.extension()
+pn.extension("vega")
 pn.extension("plotly")
+
 
 #BASE=os.path.dirname(os.path.abspath("__file__"))
 csv_path=path="train.csv"
@@ -57,6 +62,13 @@ dashboard = pn.Tabs(
 def write():
 
     #st.write(hv.render(dashboard.show()))
-    #st.write(hv.render(dashboard.show())), backend='bokeh'
-    st.write("in progress")
+    #st.write(hv.render(dashboard.show()), backend='bokeh')
     
+
+
+
+    tabs = pn.Tabs(("Histogram Plot",hist_plot), ("Box Plot",box_plot),(" Bar Chart", bar_count), 
+            ("Line Chart", line_chart),("Correlation Heatmap", heatmap), ("Scatter Plot", scatt_best_fit_line))
+
+    st.bokeh_chart(tabs.get_root())
+
