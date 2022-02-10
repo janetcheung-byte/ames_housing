@@ -33,4 +33,4 @@ pip install -r requirements_base.txt
 
 [<img target="_blank" src="https://pyviz.org/_static/logo.png" width=200>](https://pyviz.org)
 
-[<img target="_blank" src=" https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-lighttext.png" width=200>](https://streamlit.io)
+[<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-lighttext.png" width=200>](https://streamlit.io)
