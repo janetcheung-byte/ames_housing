@@ -30,3 +30,5 @@ pip install -r requirements_base.txt
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
 [<img target="_blank" src="https://camo.githubusercontent.com/e5efd9b8f2106722c85415f104a352232a3a9437d765778aca491a2c2a7d5d6c/68747470733a2f2f6465762e70616e6461732e696f2f7374617469632f696d672f70616e6461732e737667" width=200>](https://pandas.pydata.org/)
+
+[<img target="_blank" src="https://pyviz.org/_static/logo.png" width=200>](https://pyviz.org)
