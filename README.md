@@ -13,6 +13,8 @@ Dataset source: https://www.kaggle.com/c/house-prices-advanced-regression-techni
 
 Please review [Jupyter Notebook](Ames_Housing_EDA.ipynb)
 
+[Web app demo](https://ames-data-app.herokuapp.com)
+
 This web app was inspired by https://github.com/marcskovmadsen/awesome-streamlit
 
 ## Installation
